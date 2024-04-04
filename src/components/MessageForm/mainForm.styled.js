@@ -11,6 +11,16 @@ export const Form = styled.form`
       border: 2px solid red;
     }
   }
+
+  @media (max-width: 426px) {
+    width: 300px;
+    height: 310px;
+    margin-top: 130px;
+  }
+
+  @media (max-width: 376px) {
+    width: 275px;
+  }
 `;
 
 export const FormTitle = styled.p`
@@ -19,6 +29,12 @@ export const FormTitle = styled.p`
   line-height: 52px;
 
   margin-bottom: 30px;
+
+  @media (max-width: 426px) {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 10px;
+  }
 `;
 
 export const FormInputs = styled.input`
@@ -49,6 +65,17 @@ export const FormInputs = styled.input`
 
   &:hover {
     border-color: #fad34f;
+  }
+
+  @media (max-width: 426px) {
+    width: 230px;
+    height: 30px;
+    padding: 8px 12px;
+    font-size: 16px;
+
+    &::placeholder {
+      font-size: 16px;
+    }
   }
 `;
 
@@ -82,6 +109,18 @@ export const FormTextArea = styled.textarea`
   &:hover {
     border-color: #fad34f;
   }
+
+  @media (max-width: 426px) {
+    width: 230px;
+    height: 65px;
+    padding: 8px 12px;
+    font-size: 16px;
+    margin-bottom: 13px;
+
+    &::placeholder {
+      font-size: 16px;
+    }
+  }
 `;
 
 export const SubmitBtn = styled.button`
@@ -102,6 +141,12 @@ export const SubmitBtn = styled.button`
 
   &:hover {
     background-color: #facb2d;
+  }
+
+  @media (max-width: 426px) {
+    width: 149px;
+    height: 54px;
+    font-size: 16px;
   }
 `;
 

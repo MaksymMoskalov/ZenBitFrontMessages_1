@@ -19,6 +19,29 @@ export const FooterStyled = styled.footer`
   background-position: top -64px left 15px, top -1px left 1234px,
     top 51px left 1356px;
   background-size: 300px 300px, 78px 97px, 127px 127px;
+
+  @media (max-width: 426px) {
+    width: 425px;
+    height: 100px;
+
+    background-position: top 6px left 15px, top -1px left 316px,
+      top 27px left 378px;
+    background-size: 110px 110px, 39px 48px, 63px 63px;
+  }
+
+  @media (max-width: 376px) {
+    width: 376px;
+    height: 100px;
+  }
+
+  @media (max-width: 321px) {
+    width: 320px;
+    height: 100px;
+
+    background-position: top 6px left 15px, top -1px left 270px,
+      top 35px left 280px;
+    background-size: 100px 100px, 34px 43px, 56px 56px;
+  }
 `;
 
 export const LinksWrapper = styled.div`
@@ -37,5 +60,14 @@ export const LinksWrapper = styled.div`
   }
   .svg:not(:last-child) {
     margin-right: 25px;
+  }
+
+  @media (max-width: 426px) {
+    margin-left: 130px;
+    margin-top: 40px;
+  }
+
+  @media (max-width: 321px) {
+    margin-left: 120px;
   }
 `;
