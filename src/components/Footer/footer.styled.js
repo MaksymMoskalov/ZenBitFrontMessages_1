@@ -21,6 +21,16 @@ export const FooterStyled = styled.footer`
   background-size: 300px 300px, 78px 97px, 127px 127px;
 `;
 
-// background-position: top 400px left -92px, top 626px left 343px,
-//     top 516px left 763px;
-//   background-size: 214px 208px, 88px 86px, 78px 97px;
+export const LinksWrapper = styled.div`
+  color: #696969;
+  margin-left: 343px;
+  margin-top: 79px;
+
+  .svg {
+    color: #696969;
+    margin-right: 25px;
+  }
+  .svg:not(:last-child) {
+    margin-right: 25px;
+  }
+`;
