@@ -1,4 +1,6 @@
-import { combineReducers, configureStore } from '@reduxjs/toolkit';
+import { configureStore } from '@reduxjs/toolkit';
+import { messageReducer } from './messageReducer';
+
 import {
   persistStore,
   persistReducer,
@@ -11,21 +13,16 @@ import {
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 
-import { autoReducer } from './autosReduser';
-
-const favCarConfig = {
-  key: 'cars',
-  version: 1,
+const messConfig = {
+  key: 'message',
   storage,
-  whitelist: ['favouriteCars'],
+  whitelist: ['name', 'email', 'message'],
 };
 
-const rootReducer = combineReducers({
-  cars: persistReducer(favCarConfig, autoReducer),
-});
-
 export const store = configureStore({
-  reducer: rootReducer,
+  reducer: {
+    message: persistReducer(messConfig, messageReducer),
+  },
   middleware: getDefaultMiddleware =>
     getDefaultMiddleware({
       serializableCheck: {
@@ -34,4 +31,13 @@ export const store = configureStore({
     }),
 });
 
-export let persistor = persistStore(store);
+export const persistor = persistStore(store);
+
+// import { configureStore } from '@reduxjs/toolkit';
+// import { contactsReducer } from './contactsReducer';
+
+// export const store = configureStore({
+//   reducer: {
+//     contacts: contactsReducer,
+//   },
+// });
