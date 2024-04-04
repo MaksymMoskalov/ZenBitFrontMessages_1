@@ -154,4 +154,9 @@ export const LoaderWrapper = styled.div`
   position: absolute;
   top: 500px;
   left: 458px;
+
+  @media (max-width: 426px) {
+    top: 240px;
+    left: 150px;
+  }
 `;
