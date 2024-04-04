@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/ZenBitFrontMessages_1/static/css/main.3dbe4f67.css",
+    "main.js": "/ZenBitFrontMessages_1/static/js/main.dd21f6c1.js",
+    "static/media/mainMap.png": "/ZenBitFrontMessages_1/static/media/mainMap.40213bbb5bf0c103db21.png",
+    "static/media/ApercuArabicPro-Regular.eot": "/ZenBitFrontMessages_1/static/media/ApercuArabicPro-Regular.a1fde9b0125a3449357f.eot",
+    "static/media/ApercuArabicPro-Regular.ttf": "/ZenBitFrontMessages_1/static/media/ApercuArabicPro-Regular.d96e62b0b9abc2e551fc.ttf",
+    "static/media/ApercuArabicPro-Medium.eot": "/ZenBitFrontMessages_1/static/media/ApercuArabicPro-Medium.2d13dc61a41b27ff7f44.eot",
+    "static/media/ApercuArabicPro-Light.eot": "/ZenBitFrontMessages_1/static/media/ApercuArabicPro-Light.ebdd063adaa2b9f63e77.eot",
+    "static/media/ApercuArabicPro-Light.ttf": "/ZenBitFrontMessages_1/static/media/ApercuArabicPro-Light.f830de790b08ede1478c.ttf",
+    "static/media/ApercuArabicPro-Bold.eot": "/ZenBitFrontMessages_1/static/media/ApercuArabicPro-Bold.75c853dd8a737b185783.eot",
+    "static/media/ApercuArabicPro-Bold.ttf": "/ZenBitFrontMessages_1/static/media/ApercuArabicPro-Bold.79100e0efd79b5a3ecbb.ttf",
+    "static/media/ApercuArabicPro-Regular.woff": "/ZenBitFrontMessages_1/static/media/ApercuArabicPro-Regular.9e5cfe7ad055bc9bb902.woff",
+    "static/media/ApercuArabicPro-Medium.woff": "/ZenBitFrontMessages_1/static/media/ApercuArabicPro-Medium.6cd52262271665e6e640.woff",
+    "static/media/ApercuArabicPro-Bold.woff": "/ZenBitFrontMessages_1/static/media/ApercuArabicPro-Bold.a908777637bc270d9302.woff",
+    "static/media/ApercuArabicPro-Light.woff": "/ZenBitFrontMessages_1/static/media/ApercuArabicPro-Light.c4b71717a5a027524259.woff",
+    "static/media/ApercuArabicPro-Medium.woff2": "/ZenBitFrontMessages_1/static/media/ApercuArabicPro-Medium.d2bb7b85e5a341d412d9.woff2",
+    "static/media/ApercuArabicPro-Regular.woff2": "/ZenBitFrontMessages_1/static/media/ApercuArabicPro-Regular.9454d41e9c47cdaaa6a2.woff2",
+    "static/media/ApercuArabicPro-Bold.woff2": "/ZenBitFrontMessages_1/static/media/ApercuArabicPro-Bold.2c83a0bf912b01c85c45.woff2",
+    "static/media/ApercuArabicPro-Light.woff2": "/ZenBitFrontMessages_1/static/media/ApercuArabicPro-Light.9394d2363c54e9f5419a.woff2",
+    "index.html": "/ZenBitFrontMessages_1/index.html",
+    "static/media/mainCenterRed.svg": "/ZenBitFrontMessages_1/static/media/mainCenterRed.86c80a42f0643c0248d0d928a825c92e.svg",
+    "static/media/footerLeftRed.svg": "/ZenBitFrontMessages_1/static/media/footerLeftRed.4220c8dcf3b44ddaf7d029451917db56.svg",
+    "static/media/mainTopLeftFotRight.svg": "/ZenBitFrontMessages_1/static/media/mainTopLeftFotRight.179e57058940ba845986cde83b6c7412.svg",
+    "static/media/mainCenterYellow.svg": "/ZenBitFrontMessages_1/static/media/mainCenterYellow.f3192839a60e1b61e981e79b27296124.svg",
+    "static/media/footerRightGreen.svg": "/ZenBitFrontMessages_1/static/media/footerRightGreen.399df32776421d98ed8c24f3f6672b15.svg",
+    "static/media/cloud.svg": "/ZenBitFrontMessages_1/static/media/cloud.a324e325445b4c8f6e34211d144ab49f.svg",
+    "static/media/mainTopBlur.svg": "/ZenBitFrontMessages_1/static/media/mainTopBlur.386530f142eafd073496b272b2d6632d.svg",
+    "main.3dbe4f67.css.map": "/ZenBitFrontMessages_1/static/css/main.3dbe4f67.css.map",
+    "main.dd21f6c1.js.map": "/ZenBitFrontMessages_1/static/js/main.dd21f6c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dbe4f67.css",
+    "static/js/main.dd21f6c1.js"
+  ]
+}
