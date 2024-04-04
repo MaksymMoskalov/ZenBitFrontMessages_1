@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ZenBitFrontMessages_1/static/css/main.3dbe4f67.css",
-    "main.js": "/ZenBitFrontMessages_1/static/js/main.ea5d8bb1.js",
+    "main.js": "/ZenBitFrontMessages_1/static/js/main.93e63c5f.js",
     "static/media/mainMap.png": "/ZenBitFrontMessages_1/static/media/mainMap.40213bbb5bf0c103db21.png",
     "static/media/ApercuArabicPro-Regular.eot": "/ZenBitFrontMessages_1/static/media/ApercuArabicPro-Regular.a1fde9b0125a3449357f.eot",
     "static/media/ApercuArabicPro-Regular.ttf": "/ZenBitFrontMessages_1/static/media/ApercuArabicPro-Regular.d96e62b0b9abc2e551fc.ttf",
@@ -27,10 +27,10 @@
     "static/media/cloud.svg": "/ZenBitFrontMessages_1/static/media/cloud.a324e325445b4c8f6e34211d144ab49f.svg",
     "static/media/mainTopBlur.svg": "/ZenBitFrontMessages_1/static/media/mainTopBlur.386530f142eafd073496b272b2d6632d.svg",
     "main.3dbe4f67.css.map": "/ZenBitFrontMessages_1/static/css/main.3dbe4f67.css.map",
-    "main.ea5d8bb1.js.map": "/ZenBitFrontMessages_1/static/js/main.ea5d8bb1.js.map"
+    "main.93e63c5f.js.map": "/ZenBitFrontMessages_1/static/js/main.93e63c5f.js.map"
   },
   "entrypoints": [
     "static/css/main.3dbe4f67.css",
-    "static/js/main.ea5d8bb1.js"
+    "static/js/main.93e63c5f.js"
   ]
 }
