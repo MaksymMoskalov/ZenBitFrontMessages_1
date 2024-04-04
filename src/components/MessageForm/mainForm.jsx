@@ -72,41 +72,35 @@ export const MessageForm = () => {
     <Form onSubmit={handleSubmit(onSubmit)}>
       <FormTitle>Reach out to us!</FormTitle>
       <div className="form__group field">
-        <div>
-          {errors.name && <span className="error-message">{' *'}</span>}
-        </div>
         <FormInputs
           {...register('name', { required: true })}
           type="text"
           placeholder="Your name*"
           autoComplete="off"
           onChange={onInputChange}
+          className={errors.name ? 'input-error' : ''}
         />
       </div>
 
       <div className="form__group field">
-        <div>
-          {errors.email && <span className="error-message">{' *'}</span>}
-        </div>
         <FormInputs
           {...register('email', { required: true })}
           type="email"
           placeholder="Your e-mail*"
           autoComplete="off"
           onChange={onInputChange}
+          className={errors.email ? 'input-error' : ''}
         />
       </div>
 
       <div className="form__group field">
-        <div>
-          {errors.message && <span className="error-message">{' *'}</span>}
-        </div>
         <FormTextArea
           {...register('message', { required: true })}
           type="text"
           placeholder="Your message*"
           autoComplete="off"
           onChange={onInputChange}
+          className={errors.message ? 'input-error' : ''}
         />
       </div>
 
